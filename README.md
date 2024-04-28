@@ -22,7 +22,7 @@ This is a simple food ordering app where users can browse meals, add them to the
 1. Clone the repository: `git@github.com:hossam-shaheen/FoodApp.git`
 2. Navigate to the project directory: `cd food-app/backend`
 3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
+4. Start the backend server: `npm start`
 5. Navigate to the project directory: `cd food-app`
 6. Install dependencies: `npm install`
 7. Start the development server: `npm run dev`
