@@ -12,7 +12,7 @@ This is a simple food ordering app where users can browse meals, add them to the
 
 ## Technologies Used
 
-- HTML/CSS/Typescript: Frontend development.
+- HTML/CSS modules/Typescript: Frontend development.
 - React.js: Frontend library for building user interfaces.
 - ContextApi: State management library for managing application state.
 - React testing library: To make a unit test for the app.
