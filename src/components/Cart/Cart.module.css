@@ -1,0 +1,33 @@
+
+.cart h2 {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.cart h2 a{
+  cursor: pointer;
+}
+  
+.cart ul {
+    list-style: none;
+    margin: 0.5rem 0;
+    padding: 0;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  
+  .modal-actions .text-button {
+    color: #1d1a16;
+  }
+  
+  .modal-actions .text-button:hover,
+  .modal-actions .text-button:active {
+    color: #312c1d;
+  }
+  
