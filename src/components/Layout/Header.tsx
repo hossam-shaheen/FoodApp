@@ -23,9 +23,9 @@ const Header:React.FC = () =>{
             <Button onClick={handelModal} className={styles["text-button"]}>Count {count}</Button>
         </nav>
 
-        <Modal>
+         <Modal>
             <Cart />
-        </Modal>
+        </Modal> 
     </div>
 }
 

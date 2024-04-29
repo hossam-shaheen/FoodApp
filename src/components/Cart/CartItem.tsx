@@ -13,9 +13,9 @@ const CartItem:React.FC<{
                     {meal.name} X {meal.count}
                 </p>
                 <p className={styles["cart-item-actions"]}>
-                    <button className={styles["cart-item-button"]} onClick={e=> removeMeal(meal)}>-</button> 
+                    <button data-testid="decrement" className={styles["cart-item-button"]} onClick={e=> removeMeal(meal)}>-</button> 
                       {meal.count}
-                    <button className={styles["cart-item-button"]} onClick={e=> addMeal(meal)}>+</button>                   
+                    <button data-testid="increment" className={styles["cart-item-button"]} onClick={e=> addMeal(meal)}>+</button>                   
                 </p>
             </li>
 }

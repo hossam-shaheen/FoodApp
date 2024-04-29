@@ -69,7 +69,7 @@ const Cart:React.FC = () =>{
    }
 
     return <div className={styles.cart}>
-            <h2><span>Cart</span> <a onClick={closeModal}>X</a></h2>
+            <h2><span>Cart</span> <a href="javascript;" onClick={closeModal}>X</a></h2>
             
             {items.length >0  &&<CartItems/>}
             {totalPrice >0 && <TotalPrice totalPrice={totalPrice}/>}

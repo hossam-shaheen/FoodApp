@@ -6,7 +6,7 @@ const TotalPrice:React.FC<{
     totalPrice:number
 }> = ({totalPrice}) =>{
 
-    return <div className={styles["cart-total"]}>
+    return <div data-testid="cart-total" className={styles["cart-total"]}>
        <span>Total price: {formatPrice(totalPrice)}</span>
     </div>
 }

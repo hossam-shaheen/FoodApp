@@ -7,7 +7,7 @@ export type AlertType = {
 }
 
 const Alert: React.FC<AlertType> = ({ className, children }) => {
-    return <div className={`${styles.alert} ${styles[className]}`}>{children}</div>;
+    return <div data-testid="alert" className={`${styles.alert} ${styles[className]}`}>{children}</div>;
 }
 
 export default Alert;
